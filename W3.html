@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="Eng">
+    <meta charset="UTF-8">
+    <meta name="author" content="Cyrus maundu"> 
+    <meta name="description" content="HTML revision from W3Schools">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>W3Schools Front-end Web study</title>
+        <style>
+        
+            a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body{
+    background-repeat: no-repeat
+    background-image radial-gradient(red, yellow, green);
+    background-attachment: scroll;
+}
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+}
+table#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+table#t02 {
+  width: 100%;
+  background-color: #c1f1c9;
+}
+    </style>
+    </head>
+    <body style="background-color:rgb(0, 0, 255);">
+        
+        <h1 style="color:red">Ready to learn everything that it deserves</h1>
+        <p style="color:black">Happy coding Cyrus</p>
+        <pre>How was your coding today ?</pre>
+        <h2>HTML <small>Small</small> Formatting</h2>
+        <h2>HTML <mark>Marked</mark> Formatting</h2>
+
+
+        <fieldset style="border:10px solid green;">
+        <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+        <h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+<a href="C:\Users\MAUNDU CYRUS\Desktop" target="_blank">
+    <img src="C:\Users\MAUNDU CYRUS\Desktop\Photoshop -works\Cute boy❤️.jpg" 
+    style="float:right;width:200px;height:200px;border:5;">
+</a>
+
+<img src="C:\Users\MAUNDU CYRUS\Pictures\pexels-photo-10550163.jpeg" 
+    style="float:left;width:200px;height:200px;border:5;" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+
+    </map>
+    
+
+</fieldset>
+<fieldset style="border:10px solid red;">
+    <picture>
+        <source media="(min-width: 200px)" srcset="C:\Users\MAUNDU CYRUS\Desktop\Photoshop -works\IMG_20221225_174405.jpg">
+        <source media="(min-width: 200px)" srcset="C:\Users\MAUNDU CYRUS\Desktop\Photoshop -works\IMG_20230101_160153.jpg">
+        <img src="C:\Users\MAUNDU CYRUS\Desktop\Photoshop -works\IMG_20221225_174420.jpg" style="height:200px; width: 200px;">
+      </picture>
+      <table style="width:100%" id="t01">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Cyrus</td>
+          <td>Maundu</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Caren</td>
+          <td>Cyrus</td>
+          <td>19</td>
+        </tr>
+      </table>
+
+      <table style="width:100%" id="t02">
+        <tr>
+          <th>Name:</th>
+          <td>Engineer Cyrus</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Telephone:</th>
+          <td>0701165121</td>
+        </tr>
+        <tr>
+          <td>0701165121</td>
+        </tr>
+      </table>
+      <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <ul style="list-style-type:circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <hr>
+      <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+      <select name="cars" size="1">
+        <option value="Chips">Chips</option>
+        <option value="Pizzah">Pizzah</option>
+        <option value="Pilau">Pilau</option>
+        <option value="Others">Others</option>
+      </select>
+      <button type="button" onclick="alert('Hello my fellow! ur funny if you do not know about this...' )">Click Me!</button><br>
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg><br>
+      <canvas id="myCanvas" width="200" height="100" style="border:5px solid yellow;">
+      </canvas><br>
+      <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+      </svg><br>
+</fieldset>
+<form action="/action_page.php" method="post">
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br>
+    Birthday (month and year):<br>
+    <input type="month" name="bdaymonth"><br>
+    <input type="submit" value="Submit" formtarget="_blank"><br>
+
+    <input type="datetime-local" name="bdaytime"><br>
+    <input type="file" name="img" multiple><br>
+    Select a file: <br>
+    <input type="file" name="myFile"><br>
+    Search Google:<br>
+    <input type="search" name="googlesearch"><br>
+    Select a time:<br>
+    <input type="time" name="usr_time"><br>
+    Select a week:<br>
+  <input type="week" name="week_year"><br>
+  Telephone:<br>
+  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+
+  </form>
+
+
+  <fieldset>
+    <video width="320" height="240" controls>
+        <source src="C:\Users\MAUNDU CYRUS\Downloads\WhatsApp Video 2023-04-05 at 09.26.28.mp4" type="video/mp4"><br>
+        <source src="C:\Users\MAUNDU CYRUS\Downloads\WhatsApp Video 2023-04-05 at 09.27.07.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video><br>
+      <audio controls>
+        <source src="D:\www.w3schools.com\html\horse.mp3" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio><br>
+
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+  </fieldset>
+<a href="C:\Users\MAUNDU CYRUS\Music" target="_blank">Welcome to best Music in this PC</a>
+
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p><br><br>
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button><br>
+<script>
+  document.getElementById("demo").innerHTML = "My First JavaScript";
+  </script>
+    </body>
+</html>
